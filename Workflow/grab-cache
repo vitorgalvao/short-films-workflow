@@ -1,0 +1,26 @@
+#!/bin/zsh
+
+readonly cache_file="${alfred_workflow_cache}/list.json"
+readonly release_id_file="${alfred_workflow_cache}/release_id.txt"
+readonly cache_repo='vitorgalvao/short-films-cache'
+
+# Helper to show results and exit
+function show_data {
+  < "${cache_file}"
+  exit 0
+}
+
+# Get latest release info
+mkdir -p "${alfred_workflow_cache}"
+
+readonly latest_release="$(curl --silent "https://api.github.com/repos/${cache_repo}/releases/latest")"
+readonly release_id="$(osascript -l JavaScript -e 'function run(argv) { return JSON.parse(argv[0])["id"] }' "${latest_release}")"
+readonly download_url="$(osascript -l JavaScript -e 'function run(argv) { return JSON.parse(argv[0])["assets"][0]["browser_download_url"] }' "${latest_release}")"
+
+# Exit early if release has not changed
+[[ "${release_id}" == "$(< "${release_id_file}")" ]] && show_data
+
+# Download and update cache
+curl --silent --location "${download_url}" | tar --directory "${alfred_workflow_cache}" --extract
+echo "${release_id}" > "${release_id_file}"
+show_data

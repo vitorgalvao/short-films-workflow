@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.vitorgalvao.alfred.shortfilms</string>
+	<key>connections</key>
+	<dict>
+		<key>0A4E97BF-2183-4AA2-A34C-D6EB9B75CFA5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D9B7DCA4-C0D8-4DF9-BD3B-071F8B2266A5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2EF753EF-6194-4420-9096-C6892565EC96</key>
+		<array/>
+		<key>4DD17EAD-9521-4CA0-A5F8-522DEE94F7CA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F127058C-3403-47A2-A24E-6AAFA8CAB6F6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>5777145B-F30B-4A39-8BB6-AA07F81401E1</key>
+		<array/>
+		<key>58CB10C4-05E9-483D-8A4C-7E614C2AC001</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D9B7DCA4-C0D8-4DF9-BD3B-071F8B2266A5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6859D428-DC77-4EBF-9E71-9618EA83AE62</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EBFD8C9B-5C74-4F5D-8333-F59E6575D9E3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>EED64F19-BE23-4767-8EEB-AB7DA5278BFC</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>798C451D-EB09-4CBD-BDE5-E4C5D1118174</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D9B7DCA4-C0D8-4DF9-BD3B-071F8B2266A5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B7DD5DC5-C22D-4207-93F0-346518F67B00</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D9B7DCA4-C0D8-4DF9-BD3B-071F8B2266A5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C7287C24-FDBA-4287-9A91-862C5B4D878E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6859D428-DC77-4EBF-9E71-9618EA83AE62</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D9B7DCA4-C0D8-4DF9-BD3B-071F8B2266A5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5777145B-F30B-4A39-8BB6-AA07F81401E1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2EF753EF-6194-4420-9096-C6892565EC96</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Copy video link to clipboard</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C7287C24-FDBA-4287-9A91-862C5B4D878E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Download video to watch later</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EBFD8C9B-5C74-4F5D-8333-F59E6575D9E3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4275AA3D-3ADD-4743-BEDF-109FFA89B363</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F127058C-3403-47A2-A24E-6AAFA8CAB6F6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>798C451D-EB09-4CBD-BDE5-E4C5D1118174</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>38EAD351-E51B-4C3C-AD8D-0095B7CD24E1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7DD5DC5-C22D-4207-93F0-346518F67B00</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>8B825F5D-D494-409F-886F-9D632B5BEC1A</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0A4E97BF-2183-4AA2-A34C-D6EB9B75CFA5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>57793D1D-3D68-4CE5-9001-77E8AAB080AC</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>58CB10C4-05E9-483D-8A4C-7E614C2AC001</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>FCE52012-4B8B-4260-A130-AC8F296D37D6</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Vítor Galvão</string>
+	<key>description</key>
+	<string>Stream from a selection of short films</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Short Films</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "titlesinfooter" : false,
+      "subtitlesinfooter" : false,
+      "columncount" : 2
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>798C451D-EB09-4CBD-BDE5-E4C5D1118174</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:gallery_style}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>large</string>
+						<key>outputlabel</key>
+						<string>Cinemascope</string>
+						<key>uid</key>
+						<string>38EAD351-E51B-4C3C-AD8D-0095B7CD24E1</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:gallery_style}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>medium_large</string>
+						<key>outputlabel</key>
+						<string>Standard</string>
+						<key>uid</key>
+						<string>8B825F5D-D494-409F-886F-9D632B5BEC1A</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:gallery_style}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>medium_small</string>
+						<key>outputlabel</key>
+						<string>Polaroid</string>
+						<key>uid</key>
+						<string>57793D1D-3D68-4CE5-9001-77E8AAB080AC</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:gallery_style}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>small</string>
+						<key>outputlabel</key>
+						<string>Photo Gallery</string>
+						<key>uid</key>
+						<string>FCE52012-4B8B-4260-A130-AC8F296D37D6</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>F127058C-3403-47A2-A24E-6AAFA8CAB6F6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>readonly url="${1}"
+
+# CLI players
+if hash 'mpv' 2&gt; /dev/null
+then
+  mpv --no-terminal "${url}"
+  exit 0
+fi
+
+# GUI players
+for gui in 'io.mpv' 'com.vitorgalvao.mpvdummy' 'com.colliderli.iina' 'org.videolan.vlc'
+do
+  if [[ "$(/usr/bin/mdfind kMDItemCFBundleIdentifier = "${gui}")" ]]
+  then
+    open -na "${gui}" --args "${url}"
+    exit 0
+  fi
+done
+
+# Nothing found, open in browser
+echo 'To play a stream directly you need mpv, IINA, or VLC.\nOpening in web browser…' &gt;&amp;2
+open "${url}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>5777145B-F30B-4A39-8BB6-AA07F81401E1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "titlesinfooter" : false,
+      "subtitlesinfooter" : false,
+      "columncount" : 3
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>B7DD5DC5-C22D-4207-93F0-346518F67B00</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:shorts_keyword}</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Stream from a selection of short films</string>
+				<key>text</key>
+				<string>{const:alfred_workflow_name}</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4DD17EAD-9521-4CA0-A5F8-522DEE94F7CA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>columncount</key>
+				<integer>3</integer>
+				<key>filterable</key>
+				<false/>
+				<key>imageaspect</key>
+				<integer>0</integer>
+				<key>inputfile</key>
+				<string>grab-cache</string>
+				<key>inputtype</key>
+				<integer>1</integer>
+				<key>loadingtext</key>
+				<string>Checking lastest shorts…</string>
+				<key>showsubtitles</key>
+				<true/>
+				<key>showtitles</key>
+				<true/>
+				<key>subtitlesinfooter</key>
+				<false/>
+				<key>titlesinfooter</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.userinterface.grid</string>
+			<key>uid</key>
+			<string>D9B7DCA4-C0D8-4DF9-BD3B-071F8B2266A5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "titlesinfooter" : false,
+      "subtitlesinfooter" : true,
+      "columncount" : 3
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>0A4E97BF-2183-4AA2-A34C-D6EB9B75CFA5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "titlesinfooter" : true,
+      "subtitlesinfooter" : true,
+      "columncount" : 3
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>58CB10C4-05E9-483D-8A4C-7E614C2AC001</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>2EF753EF-6194-4420-9096-C6892565EC96</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://alfred.app/workflows/vitor/download-media/</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>4275AA3D-3ADD-4743-BEDF-109FFA89B363</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>function status(download_media_installed, download_url) {
+  return JSON.stringify({ alfredworkflow: {
+    variables: { download_media_installed: download_media_installed },
+    arg: download_url
+  }})
+}
+
+function run(argv) {
+  const url = argv[0]
+
+  try {
+    Application("com.runningwithcrayons.Alfred").runTrigger("download_video", { inWorkflow: "com.vitorgalvao.alfred.downloadmedia", withArgument: url })
+    return status(true, url)
+  } catch {
+    return status(false, url)
+  }
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C7287C24-FDBA-4287-9A91-862C5B4D878E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Install From the Alfred Gallery</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>The Download Media workflow is required to download video.</string>
+				<key>title</key>
+				<string>Download Media Not Installed</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>EBFD8C9B-5C74-4F5D-8333-F59E6575D9E3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:download_media_installed}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>6</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Missing Download Media</string>
+						<key>uid</key>
+						<string>EED64F19-BE23-4767-8EEB-AB7DA5278BFC</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>6859D428-DC77-4EBF-9E71-9618EA83AE62</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>## Usage
+
+Watch recent short films from [Short of the Week](https://www.shortoftheweek.com/) via the `shorts` keyword.
+
+![Keyword to start workflow](images/about/shorts.png)
+
+![Standard view](images/about/standard.png)
+
+* &lt;kbd&gt;↩&lt;/kbd&gt; Stream short.
+* &lt;kbd&gt;⌥&lt;/kbd&gt; See synopsis.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Download. Requires [Download Media](https://alfred.app/workflows/vitor/download-media/).
+* &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy link to clipboard.
+
+Different Grid Styles can be set in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
+
+![Cinemascope view](images/about/cinemascope.png)
+
+![Polaroid view](images/about/polaroid.png)
+
+![Photo Gallery view](images/about/photogallery.png)
+
+Video streams to [mpv](https://mpv.io/), [IINA](https://lhc70000.github.io/iina/), or [VLC](https://www.videolan.org/vlc/) if any is installed, otherwise it falls back to the web browser.</string>
+	<key>uidata</key>
+	<dict>
+		<key>0A4E97BF-2183-4AA2-A34C-D6EB9B75CFA5</key>
+		<dict>
+			<key>xpos</key>
+			<real>360</real>
+			<key>ypos</key>
+			<real>140</real>
+		</dict>
+		<key>2EF753EF-6194-4420-9096-C6892565EC96</key>
+		<dict>
+			<key>xpos</key>
+			<real>710</real>
+			<key>ypos</key>
+			<real>210</real>
+		</dict>
+		<key>4275AA3D-3ADD-4743-BEDF-109FFA89B363</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<real>1110</real>
+			<key>ypos</key>
+			<real>335</real>
+		</dict>
+		<key>4DD17EAD-9521-4CA0-A5F8-522DEE94F7CA</key>
+		<dict>
+			<key>xpos</key>
+			<real>40</real>
+			<key>ypos</key>
+			<real>85</real>
+		</dict>
+		<key>5777145B-F30B-4A39-8BB6-AA07F81401E1</key>
+		<dict>
+			<key>xpos</key>
+			<real>710</real>
+			<key>ypos</key>
+			<real>85</real>
+		</dict>
+		<key>58CB10C4-05E9-483D-8A4C-7E614C2AC001</key>
+		<dict>
+			<key>xpos</key>
+			<real>360</real>
+			<key>ypos</key>
+			<real>195</real>
+		</dict>
+		<key>6859D428-DC77-4EBF-9E71-9618EA83AE62</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<real>870</real>
+			<key>ypos</key>
+			<real>365</real>
+		</dict>
+		<key>798C451D-EB09-4CBD-BDE5-E4C5D1118174</key>
+		<dict>
+			<key>xpos</key>
+			<real>360</real>
+			<key>ypos</key>
+			<real>30</real>
+		</dict>
+		<key>B7DD5DC5-C22D-4207-93F0-346518F67B00</key>
+		<dict>
+			<key>xpos</key>
+			<real>360</real>
+			<key>ypos</key>
+			<real>85</real>
+		</dict>
+		<key>C7287C24-FDBA-4287-9A91-862C5B4D878E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>Download video with Download Media</string>
+			<key>xpos</key>
+			<real>710</real>
+			<key>ypos</key>
+			<real>335</real>
+		</dict>
+		<key>D9B7DCA4-C0D8-4DF9-BD3B-071F8B2266A5</key>
+		<dict>
+			<key>xpos</key>
+			<real>465</real>
+			<key>ypos</key>
+			<real>85</real>
+		</dict>
+		<key>EBFD8C9B-5C74-4F5D-8333-F59E6575D9E3</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<real>945</real>
+			<key>ypos</key>
+			<real>355</real>
+		</dict>
+		<key>F127058C-3403-47A2-A24E-6AAFA8CAB6F6</key>
+		<dict>
+			<key>xpos</key>
+			<real>225</real>
+			<key>ypos</key>
+			<real>75</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>shorts</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Shorts Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>shorts_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>medium_large</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Cinemascope</string>
+						<string>large</string>
+					</array>
+					<array>
+						<string>Standard</string>
+						<string>medium_large</string>
+					</array>
+					<array>
+						<string>Polaroid</string>
+						<string>medium_small</string>
+					</array>
+					<array>
+						<string>Photo Gallery</string>
+						<string>small</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>Cinemascope: Two large columns; text under items.
+Standard: Three columns; text under items.
+Polaroid: Three columns; title under items; details in footer.
+Photo Gallery: Three columns; text in footer.</string>
+			<key>label</key>
+			<string>Gallery Style</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>gallery_style</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<string>2024.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/vitorgalvao/short-films-workflow/</string>
+</dict>
+</plist>
