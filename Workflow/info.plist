@@ -405,6 +405,8 @@ open "${url}"</string>
 				<integer>3</integer>
 				<key>filterable</key>
 				<false/>
+				<key>fixedorder</key>
+				<true/>
 				<key>imageaspect</key>
 				<integer>0</integer>
 				<key>inputfile</key>
