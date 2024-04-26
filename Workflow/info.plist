@@ -123,7 +123,7 @@
 				<key>modifiersubtext</key>
 				<string>Copy video link to clipboard</string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -133,7 +133,7 @@
 				<key>modifiersubtext</key>
 				<string>Download video to watch later</string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 		<key>EBFD8C9B-5C74-4F5D-8333-F59E6575D9E3</key>
