@@ -1,8 +1,8 @@
 #!/bin/zsh
 
+readonly cache_repo='vitorgalvao/short-films-cache'
 readonly cache_file="${alfred_workflow_cache}/list.json"
 readonly release_id_file="${alfred_workflow_cache}/release_id.txt"
-readonly cache_repo='vitorgalvao/short-films-cache'
 
 # Helper to show results and exit
 function show_data {
