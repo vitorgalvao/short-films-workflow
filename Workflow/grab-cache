@@ -6,8 +6,14 @@ readonly state_file="${alfred_workflow_cache}/state.txt"
 
 # Helper to show results and exit
 function show_data {
-  < "${cache_file}"
-  exit 0
+  < "${cache_file}" && exit 0
+
+  # If cache somehow failed to load, show message and delete state
+  echo '{ "items": [{ "title": "Unable to Load Results",
+    "subtitle": "Open the debugger and try again",
+    "valid": false }] }'
+  rm -f "${state_file}"
+  exit 1
 }
 
 # Get latest state
@@ -20,6 +26,5 @@ readonly state="$(osascript -l JavaScript -e 'function run(argv) { return JSON.p
 
 # Update cache and state
 mkdir -p "${alfred_workflow_cache}"
-curl --silent --location "${download_url}" | tar --directory "${alfred_workflow_cache}" --extract
-echo "${state}" > "${state_file}"
+curl --silent --location "${download_url}" | tar --directory "${alfred_workflow_cache}" --extract && echo "${state}" > "${state_file}"
 show_data
