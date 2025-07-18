@@ -12,10 +12,10 @@ Watch recent short films from [Short of the Week](https://www.shortoftheweek.com
 
 ![Standard view](Workflow/images/about/standard.png)
 
-* <kbd>↩&#xFE0E;</kbd> Stream short.
+* <kbd>↩</kbd> Stream short.
 * <kbd>⌥</kbd> See synopsis.
-* <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> Download. Requires [Download Media](https://alfred.app/workflows/vitor/download-media/).
-* <kbd>⌃</kbd><kbd>↩&#xFE0E;</kbd> Copy link to clipboard.
+* <kbd>⌘</kbd><kbd>↩</kbd> Download. Requires [Download Media](https://alfred.app/workflows/vitor/download-media/).
+* <kbd>⌃</kbd><kbd>↩</kbd> Copy link to clipboard.
 
 Different Grid Styles can be set in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
 
